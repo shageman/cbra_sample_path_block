@@ -1,3 +1,12 @@
+PATH
+  remote: components
+  specs:
+    a (0.0.1)
+      b
+      rails (~> 4.1.9)
+    b (0.0.1)
+      rails (~> 4.1.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -107,6 +116,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  a!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails

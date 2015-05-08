@@ -1,0 +1,2 @@
+class Azzer
+end
