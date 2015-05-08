@@ -1,9 +1,13 @@
 PATH
-  remote: components
+  remote: components/a
   specs:
     a (0.0.1)
       b
       rails (~> 4.1.9)
+
+PATH
+  remote: components/b
+  specs:
     b (0.0.1)
       rails (~> 4.1.9)
 
@@ -117,6 +121,7 @@ PLATFORMS
 
 DEPENDENCIES
   a!
+  b!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails

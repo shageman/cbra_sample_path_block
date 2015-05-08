@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-path "components" do
-  gem "a"
-end
+gem "a", path: "components/a"
+gem "b", path: "components/b"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
